@@ -28,6 +28,33 @@ export default class Demo extends LightningElement {
         Phone: '6172558877',
         Picture__c:
             'https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jennifer_wu.jpg'
+    },
+    {
+      Id: '001',
+      Name: 'Jean Valjean',
+      Title: 'Developer',
+      Tags: ['engineering'],
+      Phone: '5555524601',
+      Picture__c:
+          'https://s3-us-west-1.amazonaws.com/sfdc-demo/people/michael_jones.jpg'
+    },
+    {
+        Id: '002',
+        Name: 'Elizabeth Schuyler',
+        Title: 'Business Development Representative',
+        Tags: ['sales'],
+        Phone: '5517571854',
+        Picture__c:
+            'https://s3-us-west-1.amazonaws.com/sfdc-demo/people/jennifer_wu.jpg'
+    },
+    {
+        Id: '003',
+        Name: 'Camina Drummer',
+        Title: 'Architect',
+        Tags: ['engineering'],
+        Phone: '1234567890',
+        Picture__c:
+            'https://s3-us-west-1.amazonaws.com/sfdc-demo/people/amy_taylor.jpg'
     }
-];
+  ];
 }
